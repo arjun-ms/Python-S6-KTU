@@ -13,6 +13,7 @@ for ch in msg:
         # by subtracting the difference between the cipher value and 'z' 
         # from the shift distance, and adding the result to the ASCII value of 'a'
         ciphervalue = ord('a') + dist - (ord('z') - ordvalue + 1)
+
     code += chr(ciphervalue)
 
 print(code)
