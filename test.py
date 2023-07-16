@@ -1,16 +1,15 @@
-# inp_list = [3,5,2,7,8]
-# sub_list = [2,7]
+birthdays = {
+    "John": "1990-05-20",
+    "Alice": "1985-11-10",
+    "Bob": "1995-08-15",
+    "Eve": "1992-04-30"
+}
 
-str = "malayalam"
+# for key in birthdays:
+#     print(key)
 
-i = 0
-j = len(str)-1
-while(i<=j):
-    if(str[i]!=str[j]):
-        print("Not palindrome")
-        break
+# print(list(birthdays.items()))
 
-    i = i+1
-    j = j-1
-else:
-    print("Palindrome")
+thisset = {"apple", "banana", "cherry"}
+thisset.update([1,2,3,3])
+print(thisset)
