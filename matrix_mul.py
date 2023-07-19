@@ -8,6 +8,3 @@ m2 = b.reshape(3,3)
 m = np.dot(m1,m2)
 print(m)
 
-# c = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
-# print(c.ndim)
-# print(c)

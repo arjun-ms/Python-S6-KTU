@@ -2,13 +2,14 @@ import turtle
 
 t=turtle.Turtle()
 
-t.right(60)
-t.forward(100)
-t.left(120)
-t.forward(100)
-t.left(60)
-t.forward(100)
-t.left(120)
-t.forward(100)
+
+
+# Draw the diamond shape
+for _ in range(2):
+    turtle.left(60)
+    turtle.forward(200)
+    turtle.left(60)
+    turtle.forward(200)
+    turtle.left(60)
 
 turtle.done()

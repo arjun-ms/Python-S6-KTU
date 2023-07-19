@@ -11,8 +11,8 @@ class Complex:
         sum_real  = self.real + num2.real
         sum_imag = self.imag + num2.imag
         
-        result = Complex(sum_real,sum_imag)
-        return result
+        return Complex(sum_real,sum_imag)
+        
     
     def subtract(self,num2):
         sub_real = self.real - num2.real
